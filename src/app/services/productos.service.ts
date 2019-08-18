@@ -21,4 +21,8 @@ export class ProductosService {
       this.cargando = false;
     });
   }
+
+  public getProducto( id: string ){
+    return this.http.get(`https://angularportafolio-36524.firebaseio.com/productos/${ id }.json`);
+  }
 }
