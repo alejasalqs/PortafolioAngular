@@ -31,7 +31,6 @@ export class InfoPaginaService {
       this.cargada = true;
       // guardamos la respuesta
       this.infoEquipo = resp;
-      console.log(resp);
     });
   }
 }
